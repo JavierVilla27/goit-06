@@ -853,15 +853,97 @@ svg:not(:root) {
     line-height: 1.87;
     letter-spacing: 0.06em;
     cursor: pointer;
-    color: #eeeeee;
+  
     background-color: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    color: var(--white-text-color);
+    color:white;
     
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
   .form-btn:hover,
   .form-btn:focus {
-    background-color: #494bd3;
+    background-color: #1c20dd;
   }
+
+  /* footer suscribase*/ 
+
+  .thirdline {
+    margin-left: 93px;
+}
+
+.thirdline .title{
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+}
+
+.mail-input {
+    width: 358px;
+    height: 50px;
+    margin-top: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    padding-left: 15px;
+
+    color: var(--white-color);
+    background-color: transparent;
+
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mail-input:focus {
+    border-color: #188CE8;
+    outline: none;
+}
+
+.footer-form{
+    display: flex;
+    align-items: baseline;
+
+}
+
+
+.icon-send {
+    margin-left: 10px;
+    fill: var(--white-color);
+}
+
+.btn-subscribe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 200px;
+    height: 50px;
+    margin-left: 12px;
+    
+    background-color: #2196F3;;
+    color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding: 0;
+    border: none;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-subscribe:hover,
+.btn-subscribe:focus {
+    background-color: #188CE8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
